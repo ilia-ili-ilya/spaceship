@@ -1,6 +1,7 @@
 from random import random, randint, choice
-from constants import *
-from hater import Hater
+
+from src.constants import *
+from src.hater import Hater
 
 class Game:
     def __init__(self, ship, artist, looker):
@@ -8,7 +9,7 @@ class Game:
         self.haters = []
         self.artist = artist
         self.looker = looker
-        self.actual_types = [False] * count_of_types
+        self.actual_types = [False] * COUNT_OF_TYPES
         self.result = 0
 
     def update_types(self):

@@ -1,4 +1,5 @@
-from vector import Vector
+from src.vector import Vector
+
 class Button:
     def __init__(self, left_up, right_down, text):
         self.left_up = Vector(left_up)

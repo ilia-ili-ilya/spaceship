@@ -1,5 +1,5 @@
-import pygame
 import sys
+import pygame
 
 class Looker:
     def __init__(self):

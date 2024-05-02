@@ -1,8 +1,8 @@
-from constants import *
-from vector import Vector
+from src.constants import *
+from src.vector import Vector
 
 class Directon:
-    def __init__(self, point=base_dir):
+    def __init__(self, point=BASE_DIR):
         self.x = point[0]
         self.y = point[1]
 

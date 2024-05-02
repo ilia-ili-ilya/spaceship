@@ -1,10 +1,11 @@
-from constants import *
-from direction import Directon
-from vector import Vector
+from src.constants import *
+from src.direction import Directon
+from src.vector import Vector
+
 class Stub:
     def __init__(self):
         self.type = 0
-        self.dir = Directon(base_dir)
+        self.dir = Directon(BASE_DIR)
 
     def draw(self, vec, artist, on_off=False):
         artist.draw_stub(vec)

@@ -1,7 +1,8 @@
-from constants import *
-from direction import Directon
+from src.constants import *
+from src.direction import Directon
+
 class Engine:
-    def __init__(self, type, dir=Directon(base_dir)):
+    def __init__(self, type, dir=Directon(BASE_DIR)):
         self.type = type
         self.dir = dir
 
@@ -18,4 +19,4 @@ class Engine:
             self.turn(Directon(small_anti_angle))
 
     def give_power(self):
-        return self.dir * engine_power
+        return self.dir * ENGINE_POWER

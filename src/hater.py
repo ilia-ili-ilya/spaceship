@@ -1,6 +1,7 @@
 from random import randint
-from constants import *
-from vector import Vector
+
+from src.constants import *
+from src.vector import Vector
 
 class Hater:
     def __init__(self, center, ship_center):

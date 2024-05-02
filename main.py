@@ -1,7 +1,12 @@
+import os
+
 import pygame
+
+from src.garage import Garage
+from src.constants import *
+
+if not os.path.isfile(RECORDS):
+	open(RECORDS, 'w').close()
 pygame.init()
-
-from garage import Garage
-
 g = Garage()
 g.menu()
