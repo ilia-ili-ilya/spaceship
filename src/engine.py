@@ -14,9 +14,9 @@ class Engine:
 
     def turn_a_little(self, clockwise):
         if clockwise:
-            self.turn(Directon(small_angle))
+            self.turn(Directon(SMALL_ANGLE))
         else:
-            self.turn(Directon(small_anti_angle))
+            self.turn(Directon(SMALL_ANTI_ANGLE))
 
     def give_power(self):
         return self.dir * ENGINE_POWER

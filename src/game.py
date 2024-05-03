@@ -1,6 +1,6 @@
 from random import random, randint, choice
 
-from src.constants import *
+from src.constants import COUNT_OF_TYPES, SCREEN_WIDTH, SCREEN_HEIGHT
 from src.hater import Hater
 
 class Game:

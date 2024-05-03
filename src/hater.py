@@ -1,6 +1,6 @@
 from random import randint
 
-from src.constants import *
+from src.constants import SCREEN_WIDTH, SCREEN_HEIGHT
 from src.vector import Vector
 
 class Hater:

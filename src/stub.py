@@ -1,4 +1,4 @@
-from src.constants import *
+from src.constants import BASE_DIR
 from src.direction import Directon
 from src.vector import Vector
 
